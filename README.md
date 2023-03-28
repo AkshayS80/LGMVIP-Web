@@ -10,6 +10,6 @@ This Repository contains the successfully completed of the **Web-Development and
 
 ## Tools and Technologies
 This Project was built using :
-  * Languages : HTML, CSS, Javascript
+  * Languages : HTML, CSS, Javascript,ReactJs
   * IDE : VSCode
  
