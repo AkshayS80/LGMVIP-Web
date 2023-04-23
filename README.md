@@ -13,6 +13,7 @@ This Project was built using :
   * Languages : HTML, CSS, Javascript
   * IDE : VSCode
 
+
 #### Task 2 : Create a React based Web app
 
 ## Tools and Technologies
@@ -20,12 +21,14 @@ This Project was built using :
   * Languages : HTML, CSS, Javascript, ReactJs
   * IDE : VSCode
 
+
 #### Task 3 : Registration form
 
 ## Tools and Technologies
 This Project was built using :
   * Languages : HTML, CSS, Javascript
   * IDE : VSCode
+
 
 #### Task 4 : Basic Calculator
 
