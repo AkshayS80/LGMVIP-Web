@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Registration form</title>
+    <link rel="stylesheet" type="text/css" href="rstyle.css">
+  </head>
+  <body>
+    <section class="table">
+      <div class="row">
+        <div class="lcolumn">
+          <center>
+            <h2>STUDENT REGISTRATION FORM</h2>
+            <table >
+              <thead>
+                <tr>
+                  <th>Name</th>
+                  <td><input type="text" name="fname" id="fname" required /></td>
+                </tr>
+              </thead>
+              <tbody>
+                
+                <tr>
+                  <th>Email</th>
+                  <td><input type="text" name="email" id="email" required /></td>
+                </tr>
+
+                <tr>
+                  <th>Age</th>
+                  <td><input type="text" name="age" id="age" required /></td>
+                </tr>
+
+                <tr>
+                  <th>Gender</th>
+                  <td><label for="gender"></label>
+                      <select id="gender" name="gender" size="2">
+                      <option value="Male">Male</option>
+                      <option value="Female">Female</option>
+                      </select></td>
+      
+              </tr>
+                <tr>
+                  <th>Skills</th>
+                  <td><label for="skills"></label>
+                      <select id="skills" name="skills" size="3" multiple>
+                      <option value="HTML">HTML</option>
+                      <option value="CSS">CSS</option>
+                      <option value="JavaScript">JavaScript</option>
+                      </select></td>
+      
+              </tr>
+                <tr id="btna">
+                  <td colspan="2">
+                    <input
+                      type="button"
+                      name="button"
+                      id="btn"
+                      value="Add"
+                      onclick="AddData()"
+                    />
+                  </td>
+                </tr>
+                <tr></tr>
+                <tr></tr>
+              </tbody>
+            </table>
+          </center>
+        </div>
+  
+        <div class="rcolumn">
+          <center>
+            <h2>STUDENTS DATA</h2>
+          <table border="1" id="Show">
+            <thead>
+              <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Age</th>
+                <th>Gender</th>
+                <th>Skills</th>
+              </tr>
+              <tr></tr>
+            </thead>
+          </table>
+        </center>
+        </div>
+      </div> 
+    </section>
+    <footer>
+      <p><h2>LetsGrowMore Internship project -- Task 3 | All Rights Reserved. | &#169; Akshay Sharma</h2></p>
+    </footer>
+    <script src="rscript.js"></script>
+  </body>
+</html>

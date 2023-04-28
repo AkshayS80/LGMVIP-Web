@@ -1,0 +1,64 @@
+body {
+    background:linear-gradient(45deg,rgb(255, 244, 233),rgb(255, 210, 252)) 
+  }
+
+  table {
+    margin: 70px;
+    padding: 1.5%;
+    text-align: center;
+    background: rgb(96, 255, 242);
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+  }
+
+  #Show th,
+  #Show td {
+    padding: 18px;
+  }
+
+  th,td{
+    padding: 7px;
+  }
+
+  #btn td input {
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+  }
+
+  th,td{
+    border: 2px solid black;
+  }
+
+  #btn {
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+  }
+  
+  .row {
+    display: flex;
+  }
+
+  .lcolumn {
+    flex: 50%;
+    border-left: 5px solid black;
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
+    background: linear-gradient(90deg, rgb(253, 255, 197), rgb(197, 255, 255))
+  }
+
+  .rcolumn{
+    flex : 50%;
+    border-right: 5px solid black;
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
+    background: linear-gradient(270deg, rgb(253, 255, 197), rgb(197, 255, 255))
+  }
+
+footer{
+   text-align: center;
+   display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: flex-start;
+}
