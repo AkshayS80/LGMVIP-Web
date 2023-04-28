@@ -30,7 +30,7 @@ This Project was built using :
 
 ## Task 3 : Registration Form
 
-Create a registration form with HTML, CSS and JavaScript. Add a few entries and display them.
+Create a registration form with HTML, CSS and JavaScript. Add a few entries and display them in the same page.
 
 #### Tools and Technologies
 This Project was built using :
